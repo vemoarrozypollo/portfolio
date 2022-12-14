@@ -1,0 +1,84 @@
+html{
+  background-color:rgb(172, 5, 5)
+}
+#root{
+  background-color:rgb(172, 5, 5)
+}
+img {
+  width: auto;
+  height: auto;
+  max-width: 250px;
+  max-height: 250px;
+  text-align: center;
+ margin-right: 40px;
+}
+.face{
+  border-radius: 5%;
+  margin: auto
+}
+.cards{
+  border-radius: 15px;
+}
+.cardtext {
+  position: relative;
+  text-align:center;
+  justify-content: center;
+ top: 35px;
+}
+.container{
+position: relative;
+display: grid;
+place-content: center;
+}
+
+@media (min-width: 913px) { 
+    #screen{
+      width: 75%;
+    }
+
+}
+.container a{
+  margin-left: 30px;
+  color: white;
+  text-decoration:none;
+}
+.navi{
+  margin-left: auto
+}
+.aboutme{
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+.aboutme img{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.cardimg{
+  display: grid;
+  place-items: center;
+  margin: 10px;
+}
+
+.aboutme h5 , h3{
+ text-align: center;
+}
+@media (max-width: 803px) { 
+  #aboutscreen{
+   margin: auto;
+  }
+
+}
+.logo{  width:170px;
+  height: 50px;
+}
+.Buttoncontact{
+display: grid;
+place-items: center;
+}
+
+.contact{
+  display: inline-flex;
+}
+
